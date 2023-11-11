@@ -191,4 +191,8 @@ brew services start yabai
 # Authorise github CLI
 gh auth login
 
-# 
+
+csrutil status
+echo "Do not forget to disable SIP"
+echo "Add sudoer manually:\n '$(whoami) ALL = (root) NOPASSWD: sha256:$(shasum -a 256 $(which yabai) | awk "{print \$1;}") $(which yabai) --load-sa' to '/private/etc/sudoers.d/yabai'"
+echo "Installation complete...\nRun nvim once and Restart the system..."
