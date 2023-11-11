@@ -32,7 +32,6 @@ brew install neofetech # System info script
 brew install ifstat # Network interface bandwidth
 brew install starship # Cross shell prompt
 brew install dooit # TUI todo manager
-brew install alfred # Application launcher
 brew install zsh-autosuggestions # fast/unobtrusive autosuggestions for zsh
 brew install zsh-syntax-highlighting # syntax highlighting for zsh
 brew install skhd # hotkey daemon for keybindings
@@ -61,3 +60,101 @@ brew install telnet # Interface for telnet protocol
 brew install docker-completion # Shell completion for docker
 brew install zsh # Unix shell
 brew install python@3.11 # Python v3.11.6
+
+
+## Casks
+echo "Installing Brew Casks..."
+### Terminals & Browsers
+brew install --cask alacritty
+brew install --cask kitty
+brew install --cask orion
+
+
+### Nice to have
+brew install --cask alfred
+brew install --cask spotify
+
+### Fonts
+brew install --cask sf-symbols
+brew install --cask font-hack-nerd-font
+brew install --cask font-jetbrains-mono
+brew install --cask font-fira-code
+
+# Mac App Store Apps
+echo "Installing Mac App Store Apps..."
+mas install 497799835 #xCode
+mas install 1480933944 #Vimari
+
+# macOS Settings
+echo "Changing macOS defaults..."
+
+# Allows the Finder to browse all available network interfaces.
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+
+# Prevents the creation of .DS_Store files on network volumes.
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+# Disables the option to have Spaces span multiple displays.
+defaults write com.apple.spaces spans-displays -bool false
+
+# Enables auto-hiding of the Dock.
+defaults write com.apple.dock autohide -bool true
+
+# Disables the most recently used Spaces feature in the Dock.
+defaults write com.apple.dock "mru-spaces" -bool "false"
+
+# Reverses the scroll direction.
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+# Sets the keyboard key repeat rate to the fastest.
+defaults write NSGlobalDomain KeyRepeat -int 1
+
+# Shows file extensions in Finder.
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Hides the menu bar.
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
+# Sets the highlight color.
+defaults write NSGlobalDomain AppleHighlightColor -string "0.65098 0.85490 0.58431"
+
+# Sets the accent color.
+defaults write NSGlobalDomain AppleAccentColor -int 1
+
+# Hides external hard drives on the desktop.
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool false
+
+# Hides internal hard drives on the desktop.
+defaults write com.apple.finder ShowHardDrivesOnDesktop -bool false
+
+# Hides mounted servers on the desktop.
+defaults write com.apple.finder ShowMountedServersOnDesktop -bool false
+
+# Hides removable media on the desktop.
+defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool false
+
+# Shows hidden files in Finder.
+defaults write com.apple.Finder AppleShowAllFiles -bool true
+
+# Sets the default search scope to the current folder.
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# Disables the warning when changing a file extension.
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+# Shows the POSIX path in Finder window titles.
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+# Sets the default Finder view style to list view.
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+# Hides the status bar in Finder.
+defaults write com.apple.finder ShowStatusBar -bool false
+
+# Enables developer extras globally.
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
+
+# Excludes the sender's name when copying email addresses in Mail.
+defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+
+
