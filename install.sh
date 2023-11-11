@@ -183,6 +183,11 @@ rm -rf /tmp/SFMono_Nerd_Font/
 
 # Initialise the system
 
+# Start Services
+echo "Starting Services (grant permissions)..."
+brew services start skhd
+brew services start yabai
+
 # Authorise github CLI
 gh auth login
 
