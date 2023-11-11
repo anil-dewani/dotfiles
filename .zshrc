@@ -1,5 +1,7 @@
 # Source zsh plugins
 
+source $(brew --prefix)/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+
 [ -d "/opt/homebrew/share/zsh-autosuggestions/" ] && source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh \
                                                   || source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 

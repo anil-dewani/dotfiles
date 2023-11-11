@@ -59,8 +59,8 @@ brew install unzip # Extraction utility
 brew install telnet # Interface for telnet protocol
 brew install docker-completion # Shell completion for docker
 brew install zsh # Unix shell
-brew install python@3.11 # Python v3.11.6
-
+brew install python@3.11 # Python v3.11.5
+brew install zsh-vi-mode # vim mode plugin for zsh
 # Terminal Setup
 
 
