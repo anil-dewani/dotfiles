@@ -61,6 +61,9 @@ brew install docker-completion # Shell completion for docker
 brew install zsh # Unix shell
 brew install python@3.11 # Python v3.11.6
 
+# Terminal Setup
+
+
 
 ## Casks
 echo "Installing Brew Casks..."
@@ -158,3 +161,21 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 
+
+# Fonts setup 
+
+# Installing sketchybar-app-font
+curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v1.0.16/sketchybar-app-font.ttf -o $HOME/Library/Fonts/sketchybar-app-font.ttf
+
+# Installing SFMono-Nerd-Font for neovim 
+git clone git@github.com:shaunsingh/SFMono-Nerd-Font-Ligaturized.git /tmp/SFMono_Nerd_Font
+mv /tmp/SFMono_Nerd_Font/* $HOME/Library/Fonts
+rm -rf /tmp/SFMono_Nerd_Font/
+
+
+# Initialise the system
+
+# Authorise github CLI
+gh auth login
+
+# 
