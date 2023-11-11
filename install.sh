@@ -21,34 +21,25 @@ brew install llvm # compiler infrastructure
 brew install ccls # c/c++ language server
 brew install libomp # runtime library for llvm
 brew install mas # mac app store cli
-brew install neovim # the OG ;)
 brew install tree # list directories in tree format
 brew install wget # download from the interwebz
 brew install jq # json processor
 brew install gh # Github CLI
-brew install ripgrep # Search tool like grep
 brew install rename # Perl-powered rename script
-brew install neofetech # System info script
+brew install neofetch # System info script
 brew install ifstat # Network interface bandwidth
 brew install starship # Cross shell prompt
-brew install dooit # TUI todo manager
-brew install zsh-autosuggestions # fast/unobtrusive autosuggestions for zsh
-brew install zsh-syntax-highlighting # syntax highlighting for zsh
 brew install skhd # hotkey daemon for keybindings
 brew install yabai # Tilling window manager
-brew install nnn # Terminal file manager
 brew install sketchybar # status bar replacement
 brew install sf-symbols # highly configurable symbols for apps
-brew install lazygit # Terminal UI for git commands
+brew install switchaudio-osx # Audio switching CLI
 brew install btop # System resource monitoring
 brew install htop # System resource monitoring
 brew install act # Run github actions locally
-brew install tmux # Terminal multiplexer
 brew install speedtest # Internet speed testing CLI
 brew install topgrade # System wide updates
 brew install ssh-copy-id # Transfer SSH Public key to remote
-brew install fd # alternative to find command
-brew install fzf # Command-line fuzzy finder
 brew install httpie # API requests from CLI
 brew install openssl@3 # SSL/TLS Toolkit
 brew install git # Distributed revision control system
@@ -58,11 +49,21 @@ brew install qemu # Emulator for x86 and PowerPC
 brew install unzip # Extraction utility
 brew install telnet # Interface for telnet protocol
 brew install docker-completion # Shell completion for docker
-brew install zsh # Unix shell
 brew install python@3.11 # Python v3.11.5
-brew install zsh-vi-mode # vim mode plugin for zsh
-# Terminal Setup
 
+
+# Terminal Setup
+brew install tmux # Terminal multiplexer
+brew install fd # alternative to find command
+brew install fzf # Command-line fuzzy finder
+brew install ripgrep # grep like features
+brew install zsh # Unix shell
+brew install zsh-vi-mode # vim mode plugin for zsh
+brew install zsh-autosuggestions # unobstrusive suggestions for zsh
+brew install zsh-syntax-highlighting # syntax-highlighting for zsh
+brew install lazygit # Terminal UI for git
+brew install nnn # Terminal file manager 
+brew install neovim # the OG ;)
 
 
 ## Casks
@@ -87,6 +88,8 @@ brew install --cask font-fira-code
 echo "Installing Mac App Store Apps..."
 mas install 497799835 #xCode
 mas install 1480933944 #Vimari
+mac install 1284863847 # Unsplash Wallpapers
+mac install 937984704 # Amphetamine
 
 # Python Packages
 echo "Installing Python Packages..."
