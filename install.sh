@@ -183,6 +183,11 @@ rm -rf /tmp/SFMono_Nerd_Font/
 
 # Initialise the system
 
+# Config location for dooit
+python -c "import appdirs; print(appdirs.user_config_dir('dooit'))"
+
+# TODO: move .config/dooit/ files inside above config location
+
 # Start Services
 echo "Starting Services (grant permissions)..."
 brew services start skhd
