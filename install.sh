@@ -88,6 +88,14 @@ echo "Installing Mac App Store Apps..."
 mas install 497799835 #xCode
 mas install 1480933944 #Vimari
 
+# Python Packages
+echo "Installing Python Packages..."
+pip install dooit
+pip install debugpy
+pip install pynvim
+pip install pyyaml
+
+
 # macOS Settings
 echo "Changing macOS defaults..."
 
