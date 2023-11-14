@@ -14,7 +14,7 @@ echo "Installing Brew Formulae..."
 brew tap homebrew/cask-fonts # nerd fonts
 brew tap FelixKratz/formulae # JankyBorders & Sketchybar
 brew tap koekeishiya/formulae # yabai and skhd
-brew tap teamookla/speedtest # speedtest-cli
+brew tap noahgorstein/tap
 
 # Brew Formulae
 brew install llvm # compiler infrastructure
@@ -50,7 +50,10 @@ brew install unzip # Extraction utility
 brew install telnet # Interface for telnet protocol
 brew install docker-completion # Shell completion for docker
 brew install python@3.11 # Python v3.11.5
-
+brew install ncdu # File storage analyzer
+brew install git-delta # Syntax highligting pager for git diff 
+brew install jqp # A TUI playground to experiment with jq 
+brew install tealdeer # Cheatsheets for CLI commands
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer
