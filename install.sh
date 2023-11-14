@@ -55,6 +55,7 @@ brew install git-delta # Syntax highligting pager for git diff
 brew install jqp # A TUI playground to experiment with jq 
 brew install tealdeer # Cheatsheets for CLI commands
 brew install jq # YAML, JSON, XML, CSV, TOML processor
+brew install tmuxp # tmux session manager
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer
