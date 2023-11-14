@@ -54,6 +54,7 @@ brew install ncdu # File storage analyzer
 brew install git-delta # Syntax highligting pager for git diff 
 brew install jqp # A TUI playground to experiment with jq 
 brew install tealdeer # Cheatsheets for CLI commands
+brew install jq # YAML, JSON, XML, CSV, TOML processor
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer
