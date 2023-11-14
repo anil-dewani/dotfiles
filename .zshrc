@@ -29,9 +29,11 @@ alias log="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d
 alias cfg="git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
 alias push="git push"
 alias g="lazygit"
-
+alias fzf="fzf --ansi"
 alias cs='tldr --list | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr'
-
+alias du='ncdu -x'
+alias top='btop'
+alias htop='btop'
 eval "$(starship init zsh)"
 
 alias ssh="TERM=xterm-256color ssh"
@@ -77,6 +79,7 @@ function suyabai () {
 }
 # Only load conda into path but dont actually use the bloat that comes with it
 export PATH="$HOME/miniforge3/bin:/usr/local/anaconda3/bin:$PATH"
+export PATH=$HOME/.local/bin:$PATH
 export NNN_TMPFILE="$HOME/.config/nnn/.lastd"
 export EDITOR="$(which nvim)"
 export VISUAL="$(which nvim)"
