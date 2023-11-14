@@ -34,6 +34,7 @@ alias cs='tldr --list | fzf --preview "tldr {1} --color=always" --preview-window
 alias du='ncdu -x'
 alias top='btop'
 alias htop='btop'
+alias ping='gping'
 eval "$(starship init zsh)"
 
 alias ssh="TERM=xterm-256color ssh"
