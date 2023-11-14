@@ -36,6 +36,11 @@ eval "$(starship init zsh)"
 
 alias ssh="TERM=xterm-256color ssh"
 
+# bat command integration
+export BAT_THEME="1337"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+alias cat="bat -p --paging=never --color=always"
+
 # Sketchybar interactivity overloads
 function brew() {
   command brew "$@" 
@@ -77,6 +82,7 @@ export EDITOR="$(which nvim)"
 export VISUAL="$(which nvim)"
 export MANPAGER="$(which nvim) +Man!"
 export XDG_CONFIG_HOME="$HOME/.config"
+
 
 # Aliases
 alias nano='nvim'
