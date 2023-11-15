@@ -40,7 +40,9 @@ alias cheat='navi'
 alias history='history 1 -1 | awk '\''{$1=""; print $0}'\'' | sort | uniq | fzf | xargs -I {} zsh -c '\''read -q "REPLY?Run command: {}? (y/n) " && [[ $REPLY == "y" ]] && {}'\'''
 alias gitinfo='onefetch'
 
-
+function howdoi {
+  command howdoi $@ | bat --paging=never
+}
 
 eval "$(starship init zsh)"
 

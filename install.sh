@@ -64,6 +64,7 @@ brew install procs # modern replacement for ps
 brew install zoxide # modern replacment for cd
 brew install navi # cheat sheet module for the CLI
 brew install onefetch # Information on current git repo
+brew install howdoi # technical suggestions within your CLI
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer
