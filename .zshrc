@@ -108,3 +108,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -f ~/.config/nvim-Lazyman/.nvimsbind ] && source ~/.config/nvim-Lazyman/.nvimsbind
 
 source /Users/nirakar/.config/broot/launcher/bash/br
+alias ls='eza --icons --git -l --all'
+

@@ -59,6 +59,7 @@ brew install tmuxp # tmux session manager
 brew install btop # system resource monitoring
 brew install gping # ping command but with a graph
 brew install broot # Ultra pro Navigation 
+brew install eza # replacement for ls
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer
