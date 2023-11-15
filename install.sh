@@ -58,6 +58,7 @@ brew install jq # YAML, JSON, XML, CSV, TOML processor
 brew install tmuxp # tmux session manager
 brew install btop # system resource monitoring
 brew install gping # ping command but with a graph
+brew install broot # Ultra pro Navigation 
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer
