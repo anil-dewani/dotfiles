@@ -60,6 +60,7 @@ brew install btop # system resource monitoring
 brew install gping # ping command but with a graph
 brew install broot # Ultra pro Navigation 
 brew install eza # replacement for ls
+brew install procs # modern replacement for ps
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer
