@@ -37,8 +37,13 @@ alias top='btop'
 alias htop='btop'
 alias ping='gping'
 alias cheat='navi'
+alias history='history 1 -1 | awk '\''{$1=""; print $0}'\'' | sort | uniq | fzf | xargs -I {} zsh -c '\''read -q "REPLY?Run command: {}? (y/n) " && [[ $REPLY == "y" ]] && {}'\'''
+
+
+
 
 eval "$(starship init zsh)"
+
 
 
 alias ssh="TERM=xterm-256color ssh"
