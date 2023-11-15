@@ -36,7 +36,10 @@ alias du='ncdu -x'
 alias top='btop'
 alias htop='btop'
 alias ping='gping'
+alias cheat='navi'
+
 eval "$(starship init zsh)"
+
 
 alias ssh="TERM=xterm-256color ssh"
 
