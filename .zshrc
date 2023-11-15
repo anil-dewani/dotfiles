@@ -41,8 +41,34 @@ alias history='history 1 -1 | awk '\''{$1=""; print $0}'\'' | sort | uniq | fzf 
 alias gitinfo='onefetch'
 
 function howdoi {
-  command howdoi $@ | bat --paging=never
+  command howdoi $@ | bat --paging=never --color=always
 }
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# Show active network interfaces
+alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# Lock the screen when going afk
+alias afk="pmset displaysleepnow"
+
+# Print each PATH entry on a separate line
+alias path='echo -e ${PATH//:/\\n}'
+
+# Put public key on clipboard
+alias copyssh="pbcopy < $HOME/.ssh/id_ed25519.pub"
+
+# we all need it sometimes.... 
+alias shrug="echo '¯\_(ツ)_/¯' | pbcopy | echo '=> Copied to pasteboard.'"
+
+# perform upgrade system-wide
+alias upgrade='topgrade'
 
 eval "$(starship init zsh)"
 
