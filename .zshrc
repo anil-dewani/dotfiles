@@ -109,4 +109,8 @@ export NVM_DIR="$HOME/.nvm"
 
 source /Users/nirakar/.config/broot/launcher/bash/br
 alias ls='eza --icons --git -l --all'
-
+alias ld='eza --icons -lD'
+alias lf='eza --icons -lF --color=always | grep -v /'
+alias lh='eza --icons -dl .* --group-directories-first'
+alias ll='eza --icons -al --group-directories-first'
+alias lt='eza --icons -al --sort=modified'
