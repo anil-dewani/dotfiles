@@ -61,6 +61,7 @@ brew install gping # ping command but with a graph
 brew install broot # Ultra pro Navigation 
 brew install eza # replacement for ls
 brew install procs # modern replacement for ps
+brew install zoxide # modern replacment for cd
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer

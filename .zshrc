@@ -126,4 +126,4 @@ alias lh='eza --icons -dl .* --group-directories-first'
 alias ll='eza --icons -al --group-directories-first'
 alias lt='eza --icons -al --sort=modified'
 
-
+alias cd='z'
