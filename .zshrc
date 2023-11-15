@@ -19,6 +19,7 @@ alias ..="cd .."
 alias x="exit"
 
 # Git Aliases
+alias open="fd --type f --hidden --exclude .git | fzf-tmux -p | xargs nvim"
 alias add="git add"
 alias commit="git commit"
 alias pull="git pull"
