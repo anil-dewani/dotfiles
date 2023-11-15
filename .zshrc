@@ -79,6 +79,17 @@ function suyabai () {
     echo "sudoers file does not exist yet"
   fi
 }
+
+# initialise broot to handle git staging area and commit changes
+function commitx {
+    br --conf ~/.config/broot/git-diff-conf.toml --git-status
+}
+
+# use broot as replacement to tree command
+function tree {
+     br -c :pt "$@"
+}
+
 # Only load conda into path but dont actually use the bloat that comes with it
 export PATH="$HOME/miniforge3/bin:/usr/local/anaconda3/bin:$PATH"
 export PATH=$HOME/.local/bin:$PATH
@@ -114,3 +125,5 @@ alias lf='eza --icons -lF --color=always | grep -v /'
 alias lh='eza --icons -dl .* --group-directories-first'
 alias ll='eza --icons -al --group-directories-first'
 alias lt='eza --icons -al --sort=modified'
+
+
