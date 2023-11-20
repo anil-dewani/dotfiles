@@ -6,7 +6,7 @@
 <span> • </span>
 <a href="#screenshots">Screenshots</a> 
 <span> • </span> 
-<a href="https://github.com/anil-dewani/dotfiles/tree/main/nvim#neovim-pde">Neovim Setup</a>
+<a href="https://github.com/anil-dewani/dotfiles/wiki">Documentation</a>
 <span> • </span> 
 <a href="#filestructure">File Structure</a>
 </p>
