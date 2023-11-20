@@ -1,5 +1,4 @@
-
-![purple_neon_abstract_4k](https://github.com/anil-dewani/dotfiles/assets/99182221/96f87713-bb39-4fe9-a014-7b492323409d)
+![purple_neon_abstract_4k](https://github.com/anil-dewani/dotfiles/assets/99182221/622f22e8-3632-4ba2-8fd6-662c44b57429)
 
 ## ✨ Introduction
 
