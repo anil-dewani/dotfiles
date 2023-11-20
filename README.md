@@ -6,9 +6,9 @@
 <span> • </span>
 <a href="#screenshots">Screenshots</a> 
 <span> • </span> 
-<a href="#neovim">Neovim Setup</a>
+<a href="https://github.com/anil-dewani/dotfiles/tree/main/nvim#neovim-pde">Neovim Setup</a>
 <span> • </span> 
-<a href="#structure">File Structure</a>
+<a href="#filestructure">File Structure</a>
 </p>
 
 <p align="center">
