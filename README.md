@@ -1,7 +1,23 @@
-# dotfiles
 
-Configuration files for dev workflow
-to be updated...
+![purple_neon_abstract_4k](https://github.com/anil-dewani/dotfiles/assets/99182221/96f87713-bb39-4fe9-a014-7b492323409d)
+
+## ✨ Introduction
+
+## ✨ Features
+
+- 🔥 Transform your Neovim into a full-fledged IDE
+- 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
+- 🚀 Blazingly fast
+- 🧹 Sane default settings for options, autocmds, and keymaps
+- 📦 Comes with a wealth of plugins pre-configured and ready to use
+
+## ⚡️ Requirements
+
+- Neovim >= **0.9.0** (needs to be built with **LuaJIT**)
+- Git >= **2.19.0** (for partial clones support)
+- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**
+- a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
+
 
 # Screenshots
 
