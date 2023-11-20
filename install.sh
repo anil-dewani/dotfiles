@@ -66,6 +66,7 @@ brew install navi # cheat sheet module for the CLI
 brew install onefetch # Information on current git repo
 brew install howdoi # technical suggestions within your CLI
 brew install weechat # Extensible IRC Client
+brew install glow # markdown previews
 
 # Terminal Setup
 brew install tmux # Terminal multiplexer
