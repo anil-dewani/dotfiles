@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="#install">Installation Script</a>
+<a href="#%EF%B8%8F-installation-script)">Installation Script</a>
 <span> • </span>
 <a href="#screenshots">Screenshots</a> 
 <span> • </span> 
