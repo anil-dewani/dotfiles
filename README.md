@@ -73,12 +73,33 @@ This repository serves as a central hub for all of my configuration files which 
 <div id="#install">
 </div>
 
-## Installation Script
+## ⚙️ Installation Script
 
-Open your favorite terminal and paste the following to initiate installation script
+Open your favorite terminal app and paste the following to initiate installation script
 
-```
+```zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/anil-dewani/dotfiles/main/install.sh)"
 ```
+The above script will execute following actions on your system:
+
+- Install xcode command-line tools
+- Install homebrew package manager
+- Setup useful brew tap sources
+- Install all dependencies using homebrew
+- Install xcode via App store Automatically
+- Install Vimari browser via App Store Automatically
+- Install Amphetamine via App Store Automatically
+- Install global pip packages
+- Changes lots of macOS default settings
+- Install needed fonts
+- Initiate needed brew services
+- Prompt to authorize github CLI
+- Creates a automated backup of .config folder of home user
+- Clones the current repo and populate .config folder of home user
+- Replaces .gitconfig and saves a backup
+- Replaces .zshrc and saves a backup
+- Set a wallpaper
+- Prompts to restart the system
+
 
 Caution: The above script can significantly change your system, so execute it after fully understanding what it actually does.
