@@ -25,7 +25,7 @@ This repository serves as a central hub for all of my configuration files which 
 - [NeoVim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [Sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commands
-- [Zsh](https://www.zsh.org/) - Unix Shell
+- [Zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [Starship](https://starship.rs/) - Modern Shell Prompt
 - [skhd](https://github.com/koekeishiya/skhd) - Hotkey Daemon for macOS ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [yabai](https://github.com/koekeishiya/yabai) - Tiling Window Manager ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
