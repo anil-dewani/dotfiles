@@ -23,7 +23,7 @@ This repository serves as a central hub for all of my configuration files which 
 ## 🚀  Tools of the trade
 
 - [NeoVim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
-- [Sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
+- [Sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Sketchybar-Configuration-Docs)
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commands
 - [Zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [Starship](https://starship.rs/) - Modern Shell Prompt
