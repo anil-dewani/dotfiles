@@ -58,12 +58,27 @@ This repository serves as a central hub for all of my configuration files which 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Gecko Browser Engine
 - [Tridactyl](https://tridactyl.xyz/) - Vim binding for firefox
 
+<div id="screenshots">
+</div>
+
 ## 💻 Screenshots
 
-<div id="screenshots">
 <img width="1280" alt="Screenshot 2023-11-20 at 7 57 12 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/42cad56f-daa3-40a6-bb23-d0d760dc5524">
 <img width="1280" alt="Screenshot 2023-11-20 at 8 06 46 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/cfbae57e-59f5-4465-b8f5-88189b1c3397">
 <img width="1280" alt="Screenshot 2023-11-20 at 8 25 16 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/1d1969d4-c9a4-4f2e-bbc9-7b17823f760b">
 <img width="1280" alt="Screenshot 2023-11-20 at 8 28 05 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/56f097f4-25da-406c-b930-5427f725c88c">
 <img width="1280" alt="Screenshot 2023-11-20 at 7 54 46 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/6123caa4-26a1-4dc1-ac66-d15c312f5ad6">
+
+
+<div id="#install">
 </div>
+
+## Installation Script
+
+Open your favorite terminal and paste the following to initiate installation script
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/anil-dewani/dotfiles/main/install.sh)"
+```
+
+Caution: The above script can significantly change your system, so execute it after fully understanding what it actually does.
