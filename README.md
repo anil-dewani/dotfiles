@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="#%EF%B8%8F-installation-script)">Installation Script</a>
+<a href="#install">Installation Script</a>
 <span> • </span>
 <a href="#screenshots">Screenshots</a> 
 <span> • </span> 
@@ -70,7 +70,7 @@ This repository serves as a central hub for all of my configuration files which 
 <img width="1280" alt="Screenshot 2023-11-20 at 7 54 46 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/6123caa4-26a1-4dc1-ac66-d15c312f5ad6">
 
 
-<div id="#install">
+<div id="install">
 </div>
 
 ## ⚙️ Installation Script
