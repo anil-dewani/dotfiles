@@ -199,13 +199,102 @@ git clone git@github.com:shaunsingh/SFMono-Nerd-Font-Ligaturized.git /tmp/SFMono
 mv /tmp/SFMono_Nerd_Font/* $HOME/Library/Fonts
 rm -rf /tmp/SFMono_Nerd_Font/
 
+# Create backup of .config folder 
 
-# Initialise the system
+# Set the source and destination paths
+source_folder="$HOME/.config"
+destination_folder="$HOME/backup"
 
-# Config location for dooit
-python -c "import appdirs; print(appdirs.user_config_dir('dooit'))"
+# Create the destination folder if it doesn't exist
+mkdir -p "$destination_folder"
 
-# TODO: move .config/dooit/ files inside above config location
+# Get the current date for the backup filename
+backup_date=$(date +"%Y%m%d_%H%M%S")
+
+# Create the zip file with a timestamp
+zip_filename="config_backup_$backup_date.zip"
+zip_filepath="$destination_folder/$zip_filename"
+
+# Zip the .config folder
+zip -r "$zip_filepath" "$source_folder"
+
+# Check if the zip operation was successful
+if [ $? -eq 0 ]; then
+    echo "Backup successful. Zip file created at: $zip_filepath"
+    # Replace .config folder in $HOME with ones from the online repo 
+
+    # Set the source repository URL
+    git_repo_url="git@github.com:anil-dewani/dotfiles.git"
+
+    # Set the target directory for git clone
+    clone_dir="/tmp/cloned_repo_dotfiles"
+
+    # Set the home directory
+    home_dir="$HOME"
+
+    # Set the folders to copy
+    folders_to_copy=("alacritty", "broot", "btop", "nvim", "sketchybar", "skhd", "tmux", "tmuxp", "yabai")
+
+    # Set the destination folder in the user's .config directory
+    destination_folder="$HOME/.config"
+
+    # Perform git clone
+    git clone "$git_repo_url" "$clone_dir"
+
+    # Check if git clone was successful
+    if [ $? -ne 0 ]; then
+        echo "Git clone failed. Exiting."
+        exit 1
+    fi
+
+    # Create the destination folder if it doesn't exist
+    mkdir -p "$destination_folder"
+
+    # Copy specified folders to the .config folder
+    for folder in "${folders_to_copy[@]}"; do
+        cp -r "$clone_dir/$folder" "$destination_folder"
+    done
+
+    # Copy dooit config into respective folder
+    dooit_config_location = $(python -c "import appdirs; print(appdirs.user_config_dir('dooit'))")
+    cp -r "$clone_dir/dooit" "$dooit_config_location"
+
+    # set the Wallpaper
+    # Specify the path to the wallpaper image
+    wallpaper_path="$clone_dir/wallpapers/midnightmountains.png"
+
+    # Set the wallpaper for all desktops
+    osascript -e "tell application \"Finder\" to set desktop picture to POSIX file \"$wallpaper_path\""
+
+    # Specify the paths to the new .gitconfig and .zshrc files
+    new_gitconfig_path="/path/to/your/new/.gitconfig"
+    new_zshrc_path="/path/to/your/new/.zshrc"
+
+    # Backup existing .gitconfig
+    if [ -e "$home_dir/.gitconfig" ]; then
+        mv "$home_dir/.gitconfig" "$home_dir/.gitconfig_backup_$(date +'%Y%m%d_%H%M%S')"
+        echo "Backup of .gitconfig created."
+    fi
+
+    # Backup existing .zshrc
+    if [ -e "$home_dir/.zshrc" ]; then
+        mv "$home_dir/.zshrc" "$home_dir/.zshrc_backup_$(date +'%Y%m%d_%H%M%S')"
+        echo "Backup of .zshrc created."
+    fi
+
+    # Copy the new .gitconfig and .zshrc files
+    cp "$clone_dir/.gitconfig" "$home_dir/.gitconfig"
+    cp "$clone_dir/.zshrc" "$home_dir/.zshrc"
+
+    echo "Replacement of .gitconfig and .zshrc completed."
+
+    # Clean up: remove the temporary clone directory
+    rm -rf "$clone_dir"
+
+    echo "Git clone and copy completed successfully."
+else
+    echo "Backup failed. Please check for errors."
+fi
 
 # Start Services
 echo "Starting Services (grant permissions)..."
@@ -219,4 +308,8 @@ gh auth login
 csrutil status
 echo "Do not forget to disable SIP"
 echo "Add sudoer manually:\n '$(whoami) ALL = (root) NOPASSWD: sha256:$(shasum -a 256 $(which yabai) | awk "{print \$1;}") $(which yabai) --load-sa' to '/private/etc/sudoers.d/yabai'"
-echo "Installation complete...\nRun nvim once and Restart the system..."
+
+
+echo "Installation setup completed. Highly adviced to restart your system once."
+sudo shutdown -r
+
