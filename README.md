@@ -37,6 +37,7 @@ This repository serves as a central hub for all of my configuration files which 
 - [eza](https://github.com/eza-community/eza) - modern replacement to `ls` command
 - [procs](https://github.com/dalance/procs) - modern replacement to `ps` command
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - modern replacement to `cd` command
+- [bat](https://github.com/sharkdp/bat) - modern replacement to `cat` command
 - [tealdeer](https://github.com/dbrgn/tealdeer) - modern replacement to `man` help documents ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [gping](https://github.com/orf/gping) - modern replacement to `ping` command
 - [broot](https://github.com/Canop/broot) - Navigation for directory trees
