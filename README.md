@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<a href="#install">⚙️ Installation Script</a>
+<a href="https://github.com/anil-dewani/dotfiles/wiki/Installation-Script-Docs">⚙️ Installation Script</a>
 <span> • </span>
 <a href="#screenshots">💻 Screenshots</a> 
 <span> • </span> 
