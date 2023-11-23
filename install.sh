@@ -120,6 +120,7 @@ pip install dooit
 pip install debugpy
 pip install pynvim
 pip install pyyaml
+pip install arsenal-cli
 
 # macOS Settings
 echo "Changing macOS defaults..."
