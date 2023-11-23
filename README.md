@@ -40,7 +40,7 @@ This repository serves as a central hub for all of my configuration files which 
 - [bat](https://github.com/sharkdp/bat) - modern replacement to `cat` command
 - [tealdeer](https://github.com/dbrgn/tealdeer) - modern replacement to `man` help documents ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [gping](https://github.com/orf/gping) - modern replacement to `ping` command
-- [fd][https://github.com/sharkdp/fd) - modern replacement to `find` command
+- [fd](https://github.com/sharkdp/fd) - modern replacement to `find` command
 - [rustscan](https://github.com/RustScan/RustScan) - modern replacement to `nmap` scanner
 - [fx](https://github.com/antonmedv/fx) - Json viewer and processor for the CLI
 - [broot](https://github.com/Canop/broot) - Navigation for directory trees
