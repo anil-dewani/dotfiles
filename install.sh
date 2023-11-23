@@ -69,6 +69,7 @@ brew install weechat           # Extensible IRC Client
 brew install glow              # markdown previews
 brew install fx                # Terminal JSON viewer & processor
 brew install tokei             # count your code
+brew install trippy            # Network diagnostics tool
 
 # Terminal Setup
 brew install tmux                    # Terminal multiplexer
