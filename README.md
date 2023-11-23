@@ -1,4 +1,4 @@
-![purple_neon_abstract_4k](https://github.com/anil-dewani/dotfiles/assets/99182221/622f22e8-3632-4ba2-8fd6-662c44b57429)
+![purple_neon_abstract_4k-min](https://github.com/anil-dewani/dotfiles/assets/99182221/a49d746b-0dd4-4e13-95c2-82102120205c)
 
 
 <p align="center">
@@ -74,12 +74,14 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 </div>
 
 ## 💻 Screenshots
+<img width="1280" alt="Screenshot 2023-11-20 at 7 57 12 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/a749b4a7-d2a0-4649-b991-647f36d63d1a">
+<img width="1280" alt="Screenshot 2023-11-20 at 8 06 46 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/24172192-7a82-4dac-99c8-8672e87a4a3d">
 
-<img width="1280" alt="Screenshot 2023-11-20 at 7 57 12 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/42cad56f-daa3-40a6-bb23-d0d760dc5524">
-<img width="1280" alt="Screenshot 2023-11-20 at 8 06 46 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/cfbae57e-59f5-4465-b8f5-88189b1c3397">
-<img width="1280" alt="Screenshot 2023-11-20 at 8 25 16 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/1d1969d4-c9a4-4f2e-bbc9-7b17823f760b">
-<img width="1280" alt="Screenshot 2023-11-20 at 8 28 05 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/56f097f4-25da-406c-b930-5427f725c88c">
-<img width="1280" alt="Screenshot 2023-11-20 at 7 54 46 PM" src="https://github.com/anil-dewani/dotfiles/assets/99182221/6123caa4-26a1-4dc1-ac66-d15c312f5ad6">
+<img width="1280" alt="Screenshot 2023-11-20 at 8 25 16 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/f54e57c5-0768-4527-8472-e20ca27cc403">
+
+<img width="1280" alt="Screenshot 2023-11-20 at 8 28 05 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/adc30da9-1751-49d2-bb2f-bc7f8823ddbd">
+<img width="1280" alt="Screenshot 2023-11-20 at 7 54 46 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/c8aa5de4-5e94-4f21-a1b4-ddebe761e81c">
+
 
 
 <div id="install">
