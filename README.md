@@ -24,14 +24,14 @@ This repository serves as a central hub for all of my configuration files which 
 
 I've curated and listed some of the best tools to uplift your tech craft. Click on the "↗ Docs" links to read documentation about how i personally configured the tool to my own necessities and liking.
 
-- [NeoVim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
-- [Sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Sketchybar-Configuration-Docs)
-- [Zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/zshrc-Configuration-Docs)
+- [neoVim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
+- [sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Sketchybar-Configuration-Docs)
+- [zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/zshrc-Configuration-Docs)
 - [skhd](https://github.com/koekeishiya/skhd) - Hotkey Daemon for macOS ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/skhd-Configuration-Docs)
 - [yabai](https://github.com/koekeishiya/yabai) - Tiling Window Manager ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Yabai-Configuration-Docs)
 - [tmux](https://github.com/tmux/tmux) - Terminal Multiplexer ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Tmux-Configuration-Docs)
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commands
-- [Starship](https://starship.rs/) - Modern Shell Prompt
+- [starship](https://starship.rs/) - Modern Shell Prompt
 - [tmuxp](https://github.com/tmux-python/tmuxp) - tmux Session Manager
 - [Alacritty](https://github.com/alacritty/alacritty) - openGL Terminal Emulator
 - [weechat](https://weechat.org/) - Extensible IRC client
@@ -50,10 +50,10 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [arsenal](https://github.com/Orange-Cyberdefense/arsenal) - Pentesting focused cheat seets in your CLI
 - [howdoi](https://github.com/gleitz/howdoi) - Technical suggestions in your CLI
 - [git-delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for git, diff, and grep output
-- [ActivityWatch](https://github.com/ActivityWatch/activitywatch) - Privacy-focused automated time tracker
-- [Tableplus](https://tableplus.com/) - Database management software for macOS
-- [Littlesnitch](https://www.obdev.at/products/littlesnitch/index.html) - Network monitoring on macOS
-- [Objective-see](https://objective-see.org/tools.html) - security tools for macOS
+- [activitywatch](https://github.com/ActivityWatch/activitywatch) - Privacy-focused automated time tracker
+- [tableplus](https://tableplus.com/) - Database management software for macOS
+- [littlesnitch](https://www.obdev.at/products/littlesnitch/index.html) - Network monitoring on macOS
+- [objective-see](https://objective-see.org/tools.html) - security tools for macOS
 
 
 ## 🤙🏻  Fonts
