@@ -26,27 +26,27 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 
 - [NeoVim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
 - [Sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Sketchybar-Configuration-Docs)
-- [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commands
 - [Zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/zshrc-Configuration-Docs)
-- [Starship](https://starship.rs/) - Modern Shell Prompt
 - [skhd](https://github.com/koekeishiya/skhd) - Hotkey Daemon for macOS ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/skhd-Configuration-Docs)
 - [yabai](https://github.com/koekeishiya/yabai) - Tiling Window Manager ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Yabai-Configuration-Docs)
 - [tmux](https://github.com/tmux/tmux) - Terminal Multiplexer ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Tmux-Configuration-Docs)
-- [tmuxp](https://github.com/tmux-python/tmuxp) - tmux Session Manager ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Tmux-Configuration-Docs#tmuxp-session-manager)
-- [Alacritty](https://github.com/alacritty/alacritty) - openGL Terminal Emulator ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Alacritty-Configuration-Docs)
+- [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commands
+- [Starship](https://starship.rs/) - Modern Shell Prompt
+- [tmuxp](https://github.com/tmux-python/tmuxp) - tmux Session Manager
+- [Alacritty](https://github.com/alacritty/alacritty) - openGL Terminal Emulator
 - [weechat](https://weechat.org/) - Extensible IRC client
 - [topgrade](https://github.com/topgrade-rs/topgrade) - Auto detect packages to be updated
 - [eza](https://github.com/eza-community/eza) - modern replacement to `ls` command
 - [procs](https://github.com/dalance/procs) - modern replacement to `ps` command
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - modern replacement to `cd` command
 - [bat](https://github.com/sharkdp/bat) - modern replacement to `cat` command
-- [tealdeer](https://github.com/dbrgn/tealdeer) - modern replacement to `man` help documents ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
+- [tealdeer](https://github.com/dbrgn/tealdeer) - modern replacement to `man` help documents
 - [gping](https://github.com/orf/gping) - modern replacement to `ping` command
 - [fd](https://github.com/sharkdp/fd) - modern replacement to `find` command
 - [rustscan](https://github.com/RustScan/RustScan) - modern replacement to `nmap` scanner
 - [fx](https://github.com/antonmedv/fx) - Json viewer and processor for the CLI
 - [broot](https://github.com/Canop/broot) - Navigation for directory trees
-- [navi](https://github.com/denisidoro/navi) - crowd sourced cheat sheets in your CLI ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
+- [navi](https://github.com/denisidoro/navi) - crowd sourced cheat sheets in your CLI
 - [arsenal](https://github.com/Orange-Cyberdefense/arsenal) - Pentesting focused cheat seets in your CLI
 - [howdoi](https://github.com/gleitz/howdoi) - Technical suggestions in your CLI
 - [git-delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for git, diff, and grep output
