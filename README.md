@@ -97,6 +97,7 @@ Open your favorite terminal app and paste the following to initiate installation
 The above script will execute following actions on your system:
 
 - Install xcode command-line tools
+- setup rust on your system using rustup
 - Install homebrew package manager
 - Setup useful brew tap sources
 - Install all dependencies using homebrew
