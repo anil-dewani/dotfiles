@@ -22,6 +22,8 @@ This repository serves as a central hub for all of my configuration files which 
 
 ## 🚀  Tools of the trade
 
+I've curated and listed some of the best tools to uplift your tech craft. Click on the "↗ Docs" links to read documentation about how i personally configured the tool to my own necessities and liking.
+
 - [NeoVim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
 - [Sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Sketchybar-Configuration-Docs)
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commands
@@ -49,6 +51,10 @@ This repository serves as a central hub for all of my configuration files which 
 - [howdoi](https://github.com/gleitz/howdoi) - Technical suggestions in your CLI
 - [git-delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for git, diff, and grep output
 - [ActivityWatch](https://github.com/ActivityWatch/activitywatch) - Privacy-focused automated time tracker
+- [Tableplus](https://tableplus.com/) - Database management software for macOS
+- [Littlesnitch](https://www.obdev.at/products/littlesnitch/index.html) - Network monitoring on macOS
+- [Objective-see](https://objective-see.org/tools.html) - security tools for macOS
+
 
 ## 🤙🏻  Fonts
 
