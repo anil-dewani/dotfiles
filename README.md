@@ -45,6 +45,7 @@ This repository serves as a central hub for all of my configuration files which 
 - [navi](https://github.com/denisidoro/navi) - crowd sourced cheat sheets in your CLI ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [howdoi](https://github.com/gleitz/howdoi) - Technical suggestions in your CLI
 - [git-delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for git, diff, and grep output
+- [ActivityWatch](https://github.com/ActivityWatch/activitywatch) - Privacy-focused automated time tracker
 
 ## 🤙🏻  Fonts
 
