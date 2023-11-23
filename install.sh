@@ -113,7 +113,12 @@ mas install 497799835  #xCode
 mas install 1480933944 #Vimari
 mac install 1284863847 # Unsplash Wallpapers
 mac install 937984704  # Amphetamine
+# Close any open System Preferences panes, to prevent them from overriding
+# settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
 
+# Ask for the administrator password upfront
+sudo -v
 # Python Packages
 echo "Installing Python Packages..."
 pip install dooit
@@ -124,6 +129,13 @@ pip install arsenal-cli
 
 # macOS Settings
 echo "Changing macOS defaults..."
+
+# Close any open System Preferences panes, to prevent them from overriding
+# settings we’re about to change
+osascript -e 'tell application "System Preferences" to quit'
+
+# Ask for the administrator password upfront
+sudo -v
 
 # Allows the Finder to browse all available network interfaces.
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
@@ -193,6 +205,23 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # Excludes the sender's name when copying email addresses in Mail.
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
+
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
+# Reveal IP address, hostname, OS version, etc. when clicking the clock
+# in the login window
+sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+
+# Set a blazingly fast keyboard repeat rate
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# Set the timezone; see `sudo systemsetup -listtimezones` for other values
+sudo systemsetup -settimezone "Asia/Kolkata" >/dev/null
+
+# Finder: show path bar
+defaults write com.apple.finder ShowPathbar -bool true
 
 # Fonts setup
 
