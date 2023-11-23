@@ -26,8 +26,8 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 
 - [neoVim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
 - [sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Sketchybar-Configuration-Docs)
-- [zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/zshrc-Configuration-Docs)
-- [skhd](https://github.com/koekeishiya/skhd) - Hotkey Daemon for macOS ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/skhd-Configuration-Docs)
+- [zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/ZSH-Configuration)
+- [skhd](https://github.com/koekeishiya/skhd) - Hotkey Daemon for macOS ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/skhd-configuration)
 - [yabai](https://github.com/koekeishiya/yabai) - Tiling Window Manager ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Yabai-Configuration-Docs)
 - [tmux](https://github.com/tmux/tmux) - Terminal Multiplexer ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Tmux-Configuration-Docs)
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commands
