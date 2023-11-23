@@ -4,6 +4,12 @@
 echo "Installing commandline tools..."
 xcode-select --install
 
+# Installing Rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Installing cargo Packages
+cargo install oxker
+
 # Install Brew
 echo "Installing Brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
