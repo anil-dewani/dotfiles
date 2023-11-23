@@ -8,7 +8,7 @@
 <span> • </span> 
 <a href="https://github.com/anil-dewani/dotfiles/wiki">📚 Documentation</a>
 <span> • </span> 
-<a href="#filestructure">📁 File Structure</a>
+<a href="https://github.com/anil-dewani/dotfiles/wiki/Keymaps">⌨️ Key Bindings</a>
 </p>
 
 <p align="center">
