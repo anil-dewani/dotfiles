@@ -68,6 +68,7 @@ brew install howdoi            # technical suggestions within your CLI
 brew install weechat           # Extensible IRC Client
 brew install glow              # markdown previews
 brew install fx                # Terminal JSON viewer & processor
+brew install tokei             # count your code
 
 # Terminal Setup
 brew install tmux                    # Terminal multiplexer
