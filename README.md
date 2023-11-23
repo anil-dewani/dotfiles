@@ -41,6 +41,7 @@ This repository serves as a central hub for all of my configuration files which 
 - [tealdeer](https://github.com/dbrgn/tealdeer) - modern replacement to `man` help documents ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [gping](https://github.com/orf/gping) - modern replacement to `ping` command
 - [rustscan](https://github.com/RustScan/RustScan) - modern replacement to `nmap` scanner
+- [fx](https://github.com/antonmedv/fx) - Json viewer and processor for the CLI
 - [broot](https://github.com/Canop/broot) - Navigation for directory trees
 - [navi](https://github.com/denisidoro/navi) - crowd sourced cheat sheets in your CLI ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
 - [howdoi](https://github.com/gleitz/howdoi) - Technical suggestions in your CLI
