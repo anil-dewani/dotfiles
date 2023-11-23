@@ -45,6 +45,7 @@ This repository serves as a central hub for all of my configuration files which 
 - [fx](https://github.com/antonmedv/fx) - Json viewer and processor for the CLI
 - [broot](https://github.com/Canop/broot) - Navigation for directory trees
 - [navi](https://github.com/denisidoro/navi) - crowd sourced cheat sheets in your CLI ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki)
+- [arsenal](https://github.com/Orange-Cyberdefense/arsenal) - Pentesting focused cheat seets in your CLI
 - [howdoi](https://github.com/gleitz/howdoi) - Technical suggestions in your CLI
 - [git-delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for git, diff, and grep output
 - [ActivityWatch](https://github.com/ActivityWatch/activitywatch) - Privacy-focused automated time tracker
