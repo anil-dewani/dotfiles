@@ -54,6 +54,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [tableplus](https://tableplus.com/) - Database management software for macOS
 - [littlesnitch](https://www.obdev.at/products/littlesnitch/index.html) - Network monitoring on macOS
 - [objective-see](https://objective-see.org/tools.html) - security tools for macOS
+- [Viscosity](https://www.sparklabs.com/viscosity/) - openVPN client
 
 
 ## 🤙🏻  Fonts
