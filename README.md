@@ -24,7 +24,7 @@ This repository serves as a central hub for all of my configuration files which 
 
 I've curated and listed some of the best tools to uplift your tech craft. Click on the "↗ Docs" links to read documentation about how i personally configured the tool to my own necessities and liking.
 
-- [neoVim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
+- [neovim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
 - [sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Sketchybar-Configuration-Docs)
 - [zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/ZSH-Configuration)
 - [skhd](https://github.com/koekeishiya/skhd) - Hotkey Daemon for macOS ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/skhd-configuration)
