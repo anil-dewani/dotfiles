@@ -49,6 +49,10 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [navi](https://github.com/denisidoro/navi) - crowd sourced cheat sheets in your CLI
 - [arsenal](https://github.com/Orange-Cyberdefense/arsenal) - Pentesting focused cheat seets in your CLI
 - [howdoi](https://github.com/gleitz/howdoi) - Technical suggestions in your CLI
+- [pueue](https://github.com/Nukesor/pueue) - CLI task management of sequential and parallel execution commands
+- [lnav](https://github.com/tstack/lnav) -  an advanced log file viewer
+- [pgcli](https://github.com/dbcli/pgcli) - a postgres client that does auto-completion and syntax highlighting.
+- [pspg](https://github.com/okbob/pspg) - Unix pager designed for work with db tables
 - [git-delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for git, diff, and grep output
 - [activitywatch](https://github.com/ActivityWatch/activitywatch) - Privacy-focused automated time tracker
 - [tableplus](https://tableplus.com/) - Database management software for macOS
