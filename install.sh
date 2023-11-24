@@ -76,6 +76,15 @@ brew install glow              # markdown previews
 brew install fx                # Terminal JSON viewer & processor
 brew install tokei             # count your code
 brew install trippy            # Network diagnostics tool
+brew install yt-dlp            # Command-line downloader
+brew install pueue             # Shell command manager and task runner
+brew install lnav              # log file viewer and live streaming
+brew install dog               # command-line DNS Client
+brew install ffmpeg            # record, convert and stream audio/video data
+brew install thefuck           # Auto correct previously mistyped command
+brew install cmatrix           # matrix-like rainfall effect on CLI for the h4x0rs
+brew install pgcli             # postgres cli with autocomplete
+brew install pspg              # unix pager for long postgres, mysql or csv tables
 
 # Terminal Setup
 brew install tmux                    # Terminal multiplexer
