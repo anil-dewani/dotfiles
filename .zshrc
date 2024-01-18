@@ -74,7 +74,7 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy | echo '=> Copied to pasteboard.'"
 alias upgrade='topgrade'
 
 eval "$(starship init zsh)"
-
+eval $(thefuck --alias)
 
 
 alias ssh="TERM=xterm-256color ssh"
@@ -164,7 +164,7 @@ alias lf='eza --icons -lF --color=always | grep -v /'
 alias lh='eza --icons -dl .* --group-directories-first'
 alias ll='eza --icons -al --group-directories-first'
 alias lt='eza --icons -al --sort=modified'
-
+alias hs='atuin search -i' 
 alias cd='z'
 
 # pnpm
@@ -174,3 +174,6 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"

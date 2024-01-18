@@ -85,7 +85,7 @@ brew install thefuck           # Auto correct previously mistyped command
 brew install cmatrix           # matrix-like rainfall effect on CLI for the h4x0rs
 brew install pgcli             # postgres cli with autocomplete
 brew install pspg              # unix pager for long postgres, mysql or csv tables
-
+brew install atuin             # shell history enhancer
 # Terminal Setup
 brew install tmux                    # Terminal multiplexer
 brew install fd                      # alternative to find command
