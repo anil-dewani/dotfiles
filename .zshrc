@@ -176,4 +176,3 @@ esac
 # pnpm end
 
 eval "$(atuin init zsh)"
-eval "$(atuin init zsh)"
