@@ -45,18 +45,30 @@ yabai -m config external_bar all:0:0 \
 	bottom_padding 30 \
 	left_padding 10 \
 	right_padding 10 \
-	window_gap 10
+	window_gap 15
 
 # Exclude problematic apps from being managed:
-yabai -m rule --add app="^(LuLu|KeePassXC|Vimac|Calculator|Software Update|Dictionary|VLC|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|App Store|Steam|Alfred|Activity Monitor)$" manage=off
+yabai -m rule --add app="^(LuLu|Vimac|Calculator|Software Update|Dictionary|VLC|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|App Store|Steam|Alfred|Activity Monitor)$" manage=off
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
 yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
 yabai -m rule --add label="Select file to save to" app="^Inkscape$" title="Select file to save to" manage=off
-yabai -m rule --add label="Browser on space #1" app="Firefox" space=^1
-yabai -m rule --add label="Alacritty Terminal on space #2" app="Alacritty" space=^2
-yabai -m rule --add label="Firefox Browser Custom Opacity" app="Firefox" opacity=0.95
 
+# custom space allocations for specific apps
+yabai -m rule --add label="Browser on space #1" app="Arc" space=1
+yabai -m rule --add label="Alacritty Terminal on space #2" app="Alacritty" space=2 opacity=0.9
+yabai -m rule --add label="KeePassXC on space #8" app="KeePassXC" space=8
+yabai -m rule --add label="WezTerm on space #1" app="WezTerm" space=1
+yabai -m rule --add label="Fork on space #3" app="Fork" space=3
+yabai -m rule --add label="TablePlus on space #4" app="TablePlus" space=4
+yabai -m rule --add label="Obsidian on space #5" app="Obsidian" space=5
+yabai -m rule --add label="ChatGPT via safari on space #6" app="Safari" space=6
+yabai -m rule --add label="Docker on space #7" app="Docker" space=7
+
+# configurating the default layout
 yabai -m config layout bsp
 
-echo "yabai configuration loaded.."
+# Initialise workspace (open macOS apps)
+$HOME/.config/yabai/initialise_workspace.sh
+
+echo "yabai configuration loaded..woohoo"
