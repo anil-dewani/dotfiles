@@ -40,7 +40,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [procs](https://github.com/dalance/procs) - modern replacement to `ps` command
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - modern replacement to `cd` command
 - [bat](https://github.com/sharkdp/bat) - modern replacement to `cat` command
-- [tealdeer](https://github.com/dbrgn/tealdeer) - modern replacement to `man` help documents
+- [tealdeer](https://github.com/dbrgn/tealdeer) - modern implementation in rust of `tldr` command
 - [gping](https://github.com/orf/gping) - modern replacement to `ping` command
 - [fd](https://github.com/sharkdp/fd) - modern replacement to `find` command
 - [rustscan](https://github.com/RustScan/RustScan) - modern replacement to `nmap` scanner
