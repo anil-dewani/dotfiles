@@ -14,6 +14,17 @@ require("lazy").setup({
     -- { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.json" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
+    -- import any colorschemes here
+    -- the colorscheme should be available when starting Neovim
+    {
+      "cocopon/iceberg.vim",
+      lazy = false, -- make sure we load this during startup if it is your main colorscheme
+      priority = 1000, -- make sure to load this before all the other start plugins
+      config = function()
+        -- load the colorscheme here
+        vim.cmd([[colorscheme iceberg]])
+      end,
+    },
     -- import/override with your plugins
     { import = "plugins" },
   },
@@ -38,7 +49,7 @@ require("lazy").setup({
         -- "netrwPlugin",
         "tarPlugin",
         "tohtml",
-        "tutor",
+        -- "tutor",
         "zipPlugin",
       },
     },
