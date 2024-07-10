@@ -24,70 +24,71 @@ brew tap koekeishiya/formulae # yabai and skhd
 brew tap noahgorstein/tap
 
 # Brew Formulae
-brew install llvm              # compiler infrastructure
-brew install ccls              # c/c++ language server
-brew install libomp            # runtime library for llvm
-brew install mas               # mac app store cli
-brew install tree              # list directories in tree format
-brew install wget              # download from the interwebz
-brew install jq                # json processor
-brew install gh                # Github CLI
-brew install rename            # Perl-powered rename script
-brew install neofetch          # System info script
-brew install ifstat            # Network interface bandwidth
-brew install starship          # Cross shell prompt
-brew install skhd              # hotkey daemon for keybindings
-brew install yabai             # Tilling window manager
-brew install sketchybar        # status bar replacement
-brew install sf-symbols        # highly configurable symbols for apps
-brew install switchaudio-osx   # Audio switching CLI
-brew install btop              # System resource monitoring
-brew install htop              # System resource monitoring
-brew install act               # Run github actions locally
-brew install speedtest         # Internet speed testing CLI
-brew install topgrade          # System wide updates
-brew install ssh-copy-id       # Transfer SSH Public key to remote
-brew install httpie            # API requests from CLI
-brew install openssl@3         # SSL/TLS Toolkit
-brew install git               # Distributed revision control system
-brew install cmake             # cross-platform make command
-brew install lz4               # Extremely Fast Compression algorithm
-brew install qemu              # Emulator for x86 and PowerPC
-brew install unzip             # Extraction utility
-brew install telnet            # Interface for telnet protocol
-brew install docker-completion # Shell completion for docker
-brew install python@3.11       # Python v3.11.5
-brew install ncdu              # File storage analyzer
-brew install git-delta         # Syntax highligting pager for git diff
-brew install jqp               # A TUI playground to experiment with jq
-brew install tealdeer          # Cheatsheets for CLI commands
-brew install jq                # YAML, JSON, XML, CSV, TOML processor
-brew install tmuxp             # tmux session manager
-brew install btop              # system resource monitoring
-brew install gping             # ping command but with a graph
-brew install broot             # Ultra pro Navigation
-brew install eza               # replacement for ls
-brew install procs             # modern replacement for ps
-brew install zoxide            # modern replacment for cd
-brew install navi              # cheat sheet module for the CLI
-brew install onefetch          # Information on current git repo
-brew install howdoi            # technical suggestions within your CLI
-brew install weechat           # Extensible IRC Client
-brew install glow              # markdown previews
-brew install fx                # Terminal JSON viewer & processor
-brew install tokei             # count your code
-brew install trippy            # Network diagnostics tool
-brew install yt-dlp            # Command-line downloader
-brew install pueue             # Shell command manager and task runner
-brew install lnav              # log file viewer and live streaming
-brew install dog               # command-line DNS Client
-brew install ffmpeg            # record, convert and stream audio/video data
-brew install thefuck           # Auto correct previously mistyped command
-brew install cmatrix           # matrix-like rainfall effect on CLI for the h4x0rs
-brew install pgcli             # postgres cli with autocomplete
-brew install pspg              # unix pager for long postgres, mysql or csv tables
-brew install atuin             # shell history enhancer
-brew install doggo             # Command-line DNS client
+brew install llvm                                                                                     # compiler infrastructure
+brew install ccls                                                                                     # c/c++ language server
+brew install libomp                                                                                   # runtime library for llvm
+brew install mas                                                                                      # mac app store cli
+brew install tree                                                                                     # list directories in tree format
+brew install wget                                                                                     # download from the interwebz
+brew install jq                                                                                       # json processor
+brew install gh                                                                                       # Github CLI
+brew install rename                                                                                   # Perl-powered rename script
+brew install neofetch                                                                                 # System info script
+brew install ifstat                                                                                   # Network interface bandwidth
+brew install starship                                                                                 # Cross shell prompt
+brew install skhd                                                                                     # hotkey daemon for keybindings
+brew install yabai                                                                                    # Tilling window manager
+brew install sketchybar                                                                               # status bar replacement
+brew install sf-symbols                                                                               # highly configurable symbols for apps
+brew install switchaudio-osx                                                                          # Audio switching CLI
+brew install btop                                                                                     # System resource monitoring
+brew install htop                                                                                     # System resource monitoring
+brew install act                                                                                      # Run github actions locally
+brew install speedtest                                                                                # Internet speed testing CLI
+brew install topgrade                                                                                 # System wide updates
+brew install ssh-copy-id                                                                              # Transfer SSH Public key to remote
+brew install httpie                                                                                   # API requests from CLI
+brew install openssl@3                                                                                # SSL/TLS Toolkit
+brew install git                                                                                      # Distributed revision control system
+brew install cmake                                                                                    # cross-platform make command
+brew install lz4                                                                                      # Extremely Fast Compression algorithm
+brew install qemu                                                                                     # Emulator for x86 and PowerPC
+brew install unzip                                                                                    # Extraction utility
+brew install telnet                                                                                   # Interface for telnet protocol
+brew install docker-completion                                                                        # Shell completion for docker
+brew install python@3.11                                                                              # Python v3.11.5
+brew install ncdu                                                                                     # File storage analyzer
+brew install git-delta                                                                                # Syntax highligting pager for git diff
+brew install jqp                                                                                      # A TUI playground to experiment with jq
+brew install tealdeer                                                                                 # Cheatsheets for CLI commands
+brew install jq                                                                                       # YAML, JSON, XML, CSV, TOML processor
+brew install tmuxp                                                                                    # tmux session manager
+brew install btop                                                                                     # system resource monitoring
+brew install gping                                                                                    # ping command but with a graph
+brew install broot                                                                                    # Ultra pro Navigation
+brew install eza                                                                                      # replacement for ls
+brew install procs                                                                                    # modern replacement for ps
+brew install zoxide                                                                                   # modern replacment for cd
+brew install navi                                                                                     # cheat sheet module for the CLI
+brew install onefetch                                                                                 # Information on current git repo
+brew install howdoi                                                                                   # technical suggestions within your CLI
+brew install weechat                                                                                  # Extensible IRC Client
+brew install glow                                                                                     # markdown previews
+brew install fx                                                                                       # Terminal JSON viewer & processor
+brew install tokei                                                                                    # count your code
+brew install trippy                                                                                   # Network diagnostics tool
+brew install yt-dlp                                                                                   # Command-line downloader
+brew install pueue                                                                                    # Shell command manager and task runner
+brew install lnav                                                                                     # log file viewer and live streaming
+brew install dog                                                                                      # command-line DNS Client
+brew install ffmpeg                                                                                   # record, convert and stream audio/video data
+brew install thefuck                                                                                  # Auto correct previously mistyped command
+brew install cmatrix                                                                                  # matrix-like rainfall effect on CLI for the h4x0rs
+brew install pgcli                                                                                    # postgres cli with autocomplete
+brew install pspg                                                                                     # unix pager for long postgres, mysql or csv tables
+brew install atuin                                                                                    # shell history enhancer
+brew install doggo                                                                                    # Command-line DNS client
+brew install yazi ffmpegthumbnailer unar jq poppler fd ripgrep fzf zoxide font-symbols-only-nerd-font # yazi command line file browser
 # Terminal Setup
 brew install tmux                    # Terminal multiplexer
 brew install fd                      # alternative to find command
