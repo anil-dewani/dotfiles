@@ -87,6 +87,7 @@ brew install cmatrix           # matrix-like rainfall effect on CLI for the h4x0
 brew install pgcli             # postgres cli with autocomplete
 brew install pspg              # unix pager for long postgres, mysql or csv tables
 brew install atuin             # shell history enhancer
+brew install doggo             # Command-line DNS client
 # Terminal Setup
 brew install tmux                    # Terminal multiplexer
 brew install fd                      # alternative to find command
