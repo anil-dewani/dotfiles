@@ -1,0 +1,2 @@
+0 */3 * * * /usr/local/bin/rclone sync $HOME/Code storagebox:CodeBackup
+
