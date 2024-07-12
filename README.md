@@ -1,13 +1,12 @@
 ![purple_neon_abstract_4k-min](https://github.com/anil-dewani/dotfiles/assets/99182221/a49d746b-0dd4-4e13-95c2-82102120205c)
 
-
 <p align="center">
 <a href="https://github.com/anil-dewani/dotfiles/wiki/Installation-Script-Docs">⚙️ Installation Script</a>
 <span> • </span>
-<a href="#screenshots">💻 Screenshots</a> 
-<span> • </span> 
+<a href="#screenshots">💻 Screenshots</a>
+<span> • </span>
 <a href="https://github.com/anil-dewani/dotfiles/wiki">📚 Documentation</a>
-<span> • </span> 
+<span> • </span>
 <a href="https://github.com/anil-dewani/dotfiles/wiki/Keymaps">⌨️ Key Bindings</a>
 </p>
 
@@ -16,11 +15,11 @@
 <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software"><img src="https://img.shields.io/badge/FOSS-100%25-green.svg?style=flat"></a>
 </p>
 
-## ✨  Introduction
+## ✨ Introduction
 
 This repository serves as a central hub for all of my configuration files which i've tweaked to enhance my DX (Developer Experience). I've an install.sh script which can be used to initialise all of my new systems or existing systems to adhere to my configurations automatically.
 
-## 🚀  Tools of the trade
+## 🚀 Tools of the trade
 
 I've curated and listed some of the best tools to uplift your tech craft. Click on the "↗ Docs" links to read documentation about how i personally configured the tool to my own necessities and liking.
 
@@ -50,7 +49,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [arsenal](https://github.com/Orange-Cyberdefense/arsenal) - Pentesting focused cheat seets in your CLI
 - [howdoi](https://github.com/gleitz/howdoi) - Technical suggestions in your CLI
 - [pueue](https://github.com/Nukesor/pueue) - CLI task management of sequential and parallel execution commands
-- [lnav](https://github.com/tstack/lnav) -  an advanced log file viewer
+- [lnav](https://github.com/tstack/lnav) - an advanced log file viewer
 - [pgcli](https://github.com/dbcli/pgcli) - a postgres client that does auto-completion and syntax highlighting.
 - [pspg](https://github.com/okbob/pspg) - Unix pager designed for work with db tables
 - [git-delta](https://github.com/dandavison/delta) - Syntax-highlighting pager for git, diff, and grep output
@@ -60,8 +59,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [objective-see](https://objective-see.org/tools.html) - security tools for macOS
 - [Viscosity](https://www.sparklabs.com/viscosity/) - openVPN client
 
-
-## 🤙🏻  Fonts
+## 🤙🏻 Fonts
 
 - [SF Symbols](https://developer.apple.com/sf-symbols/)
 - [Hack Nerd Font](https://www.nerdfonts.com/)
@@ -69,7 +67,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [Fira Code](https://github.com/tonsky/FiraCode)
 - [SF Mono Nerd Font](https://github.com/epk/SF-Mono-Nerd-Font)
 
-## 🌎  Browser
+## 🌎 Browser
 
 - [Orion](https://kagi.com/orion/) - WebKit Browser Engine
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - Gecko Browser Engine
@@ -79,6 +77,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 </div>
 
 ## 💻 Screenshots
+
 <img width="1280" alt="Screenshot 2023-11-20 at 7 57 12 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/a749b4a7-d2a0-4649-b991-647f36d63d1a">
 <img width="1280" alt="Screenshot 2023-11-20 at 8 06 46 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/24172192-7a82-4dac-99c8-8672e87a4a3d">
 
@@ -86,8 +85,6 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 
 <img width="1280" alt="Screenshot 2023-11-20 at 8 28 05 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/adc30da9-1751-49d2-bb2f-bc7f8823ddbd">
 <img width="1280" alt="Screenshot 2023-11-20 at 7 54 46 PM-min" src="https://github.com/anil-dewani/dotfiles/assets/99182221/c8aa5de4-5e94-4f21-a1b4-ddebe761e81c">
-
-
 
 <div id="install">
 </div>
@@ -99,6 +96,7 @@ Open your favorite terminal app and paste the following to initiate installation
 ```zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/anil-dewani/dotfiles/main/install.sh)"
 ```
+
 The above script will execute following actions on your system:
 
 - Install xcode command-line tools
@@ -121,5 +119,9 @@ The above script will execute following actions on your system:
 - Set a wallpaper
 - Prompts to restart the system
 
-
 Caution: The above script can significantly change your system, so execute it after fully understanding what it actually does.
+
+## OSX Shortcut App Links to Install
+
+<https://www.icloud.com/shortcuts/4e147c37765e4fc7a3f029e5a8de6d32>
+<https://www.icloud.com/shortcuts/cdd0f512e44d4c60b79e9785c25c8d14>
