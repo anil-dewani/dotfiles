@@ -101,6 +101,7 @@ brew install zsh-syntax-highlighting # syntax-highlighting for zsh
 brew install lazygit                 # Terminal UI for git
 brew install nnn                     # Terminal file manager
 brew install neovim                  # the OG ;)
+brew install rclone                  # mount and sync cloud storages
 
 ## Casks
 echo "Installing Brew Casks..."
@@ -108,7 +109,6 @@ echo "Installing Brew Casks..."
 brew install --cask alacritty
 brew install --cask kitty
 brew install --cask orion
-
 ### Nice to have
 brew install --cask alfred
 brew install --cask spotify
@@ -346,6 +346,9 @@ fi
 echo "Starting Services (grant permissions)..."
 brew services start skhd
 brew services start yabai
+
+# reload systemd daemon
+systemctl --user daemon-reload
 
 # Authorise github CLI
 gh auth login
