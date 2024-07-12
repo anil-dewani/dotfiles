@@ -347,9 +347,6 @@ echo "Starting Services (grant permissions)..."
 brew services start skhd
 brew services start yabai
 
-# reload systemd daemon
-systemctl --user daemon-reload
-
 # Authorise github CLI
 gh auth login
 
