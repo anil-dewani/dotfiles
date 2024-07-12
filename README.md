@@ -123,5 +123,5 @@ Caution: The above script can significantly change your system, so execute it af
 
 ## OSX Shortcut App Links to Install
 
-<https://www.icloud.com/shortcuts/4e147c37765e4fc7a3f029e5a8de6d32>
+<https://www.icloud.com/shortcuts/4e147c37765e4fc7a3f029e5a8de6d32> (add this to login items as well)
 <https://www.icloud.com/shortcuts/cdd0f512e44d4c60b79e9785c25c8d14>
