@@ -16,7 +16,7 @@ yabai -m signal --add event=window_destroyed action="sketchybar --trigger window
 $HOME/.config/yabai/create_spaces.sh
 
 yabai -m config external_bar all:0:0 \
-  window_border on \
+  window_border off \
   mouse_follows_focus off \
   focus_follows_mouse off \
   window_zoom_persist off \
@@ -27,9 +27,9 @@ yabai -m config external_bar all:0:0 \
   window_opacity_duration 0.15 \
   active_window_opacity 1.00 \
   normal_window_opacity 1.00 \
-  window_border_width 2 \
+  window_border_width 0 \
   window_border_hidpi off \
-  window_border_radius 11 \
+  window_border_radius 0 \
   window_animation_duration 0.22 \
   active_window_border_color 0xffe1e3e4 \
   normal_window_border_color 0xff2a2f38 \
@@ -40,12 +40,11 @@ yabai -m config external_bar all:0:0 \
   mouse_action1 move \
   mouse_action2 resize \
   mouse_drop_action swap \
-  \
-  top_padding 10 \
-  bottom_padding 10 \
-  left_padding 10 \
-  right_padding 10 \
-  window_gap 10
+  top_padding 0 \
+  bottom_padding 0 \
+  left_padding 0 \
+  right_padding 0 \
+  window_gap 0
 
 # Exclude problematic apps from being managed:
 yabai -m rule --add app="^(LuLu|Vimac|Calculator|Software Update|Dictionary|VLC|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|App Store|Steam|Alfred|Activity Monitor)$" manage=off
