@@ -111,7 +111,7 @@ function kill () {
 }
 
 function suyabai () {
-  SHA256=$(shasum -a 256 /opt/homebrew/bin/yabai | awk "{print \$1;}")
+  SHA256=$(shasum -a 256 /opt/homebrew/Cellar/yabai/HEAD*/bin/yabai | awk "{print \$1;}")
   if [ -f "/private/etc/sudoers.d/yabai" ]; then
     sudo sed -i '' -e 's/sha256:[[:alnum:]]*/sha256:'${SHA256}'/' /private/etc/sudoers.d/yabai
   else
@@ -175,4 +175,6 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+
+# Initialize atuin
 eval "$(atuin init zsh)"
