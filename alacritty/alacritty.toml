@@ -110,7 +110,7 @@ mods = "Command"
 hide_when_typing = false
 
 [window]
-decorations = "buttonless"
+decorations = "none"
 dynamic_title = true
 opacity = 0.98
 title = "Alacritty"
