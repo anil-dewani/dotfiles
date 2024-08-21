@@ -74,5 +74,13 @@ open -a "KeepassXC"
 yabai -m space --focus 8
 sleep 2
 
+if ! yabai -m query --spaces | jq -e ".[] | select(.index == 9)" >/dev/null; then
+  yabai -m space --create
+  sleep 0.5
+fi
+open -a "Zed"
+yabai -m space --focus 9
+sleep 2
+
 # shift back to the first space
 yabai -m space --focus 1

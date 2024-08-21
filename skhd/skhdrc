@@ -22,6 +22,7 @@ cmd - 5 : yabai -m space --focus 5
 cmd - 6 : yabai -m space --focus 6
 cmd - 7 : yabai -m space --focus 7
 cmd - 8 : yabai -m space --focus 8
+cmd - 9 : yabai -m space --focus 9
 # Window Navigation (through display borders): lalt - {j, k, l, ö}
 lalt - j    : yabai -m window --focus west  || yabai -m display --focus west
 lalt - k    : yabai -m window --focus south || yabai -m display --focus south
