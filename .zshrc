@@ -170,6 +170,9 @@ case ":$PATH:" in
 esac
 # pnpm end
 
+# setup for auto completion for poetry
+fpath+=~/.zfunc
+autoload -Uz compinit && compinit
 
 # Initialize atuin
 eval "$(atuin init zsh)"
