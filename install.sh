@@ -102,6 +102,7 @@ brew install lazygit                 # Terminal UI for git
 brew install nnn                     # Terminal file manager
 brew install neovim                  # the OG ;)
 brew install rclone                  # mount and sync cloud storages
+brew install unikraft/cli/kraftkit   # kraft a custom OS/Kernel
 
 ## Casks
 echo "Installing Brew Casks..."
