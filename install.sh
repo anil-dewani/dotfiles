@@ -104,6 +104,7 @@ brew install neovim                  # the OG ;)
 brew install rclone                  # mount and sync cloud storages
 brew install unikraft/cli/kraftkit   # kraft a custom OS/Kernel
 brew install hyperfine               # CLI Benchmarking Tool
+brew install trivy                   # Find vulnerabilities, misconfigurations, secrets, SBOM etc
 
 ## Casks
 echo "Installing Brew Casks..."
