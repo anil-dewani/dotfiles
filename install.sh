@@ -141,6 +141,8 @@ pip install debugpy
 pip install pynvim
 pip install pyyaml
 pip install arsenal-cli
+# A recursive Internet Scanner Tool
+pip install bbot
 
 # macOS Settings
 echo "Changing macOS defaults..."
