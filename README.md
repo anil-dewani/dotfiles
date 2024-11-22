@@ -60,6 +60,10 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [Viscosity](https://www.sparklabs.com/viscosity/) - openVPN client
 - [Hyperfine](https://github.com/sharkdp/hyperfine) - CLI Benchmarking Tool
 - [kraft](https://unikraft.org/docs/cli) - build and manage your application as a unikernel
+- [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM etc
+- [Sniffnet](https://github.com/GyulyVGC/sniffnet) - Monitoring tool for your internet traffic
+- [bbot](https://github.com/blacklanternsecurity/bbot) - Recursive Internet Scanner Tool
+  
 
 ## 🤙🏻 Fonts
 
