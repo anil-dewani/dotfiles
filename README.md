@@ -58,6 +58,8 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [littlesnitch](https://www.obdev.at/products/littlesnitch/index.html) - Network monitoring on macOS
 - [objective-see](https://objective-see.org/tools.html) - security tools for macOS
 - [Viscosity](https://www.sparklabs.com/viscosity/) - openVPN client
+- [Hyperfine](https://github.com/sharkdp/hyperfine) - CLI Benchmarking Tool
+- [kraft](https://unikraft.org/docs/cli) - build and manage your application as a unikernel
 
 ## 🤙🏻 Fonts
 
