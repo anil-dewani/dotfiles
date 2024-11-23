@@ -63,6 +63,11 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [Trivy](https://github.com/aquasecurity/trivy) - Find vulnerabilities, misconfigurations, secrets, SBOM etc
 - [Sniffnet](https://github.com/GyulyVGC/sniffnet) - Monitoring tool for your internet traffic
 - [bbot](https://github.com/blacklanternsecurity/bbot) - Recursive Internet Scanner Tool
+- [ArqBackup](https://www.arqbackup.com/) - Automatic Backups to Cloud Storage
+- [Warp](https://www.warp.dev/) - AI enabled Terminal App
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - Docker management TUI
+- [Secretive](https://github.com/maxgoedjen/secretive) - Store SSH keys in the Secure Enclave
+- [Monodraw](https://monodraw.helftone.com/) - ASCII art editor
   
 
 ## 🤙🏻 Fonts
