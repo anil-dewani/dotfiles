@@ -239,6 +239,9 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10
 # disable press and hold for special characters
 defaults write -g ApplePressAndHoldEnabled -bool false
 
+# stop hiding the ~/Library in finder
+chflags nohidden ~/Library
+
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Asia/Kolkata" >/dev/null
 
