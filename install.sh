@@ -107,6 +107,7 @@ brew install hyperfine                           # CLI Benchmarking Tool
 brew install trivy                               # Find vulnerabilities, misconfigurations, secrets, SBOM etc
 brew install sniffnet                            # Internet Traffic Monitoring Tool
 brew install --cask warp                         # AI enabled Terminal App
+brew install secretive                           # Store SSH keys in the Secure Enclave
 brew install jesseduffield/lazydocker/lazydocker # Docker TUI
 
 ## Casks
