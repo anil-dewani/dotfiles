@@ -90,22 +90,23 @@ brew install atuin                                                              
 brew install doggo                                                                                    # Command-line DNS client
 brew install yazi ffmpegthumbnailer unar jq poppler fd ripgrep fzf zoxide font-symbols-only-nerd-font # yazi command line file browser
 # Terminal Setup
-brew install tmux                    # Terminal multiplexer
-brew install fd                      # alternative to find command
-brew install fzf                     # Command-line fuzzy finder
-brew install ripgrep                 # grep like features
-brew install zsh                     # Unix shell
-brew install zsh-vi-mode             # vim mode plugin for zsh
-brew install zsh-autosuggestions     # unobstrusive suggestions for zsh
-brew install zsh-syntax-highlighting # syntax-highlighting for zsh
-brew install lazygit                 # Terminal UI for git
-brew install nnn                     # Terminal file manager
-brew install neovim                  # the OG ;)
-brew install rclone                  # mount and sync cloud storages
-brew install unikraft/cli/kraftkit   # kraft a custom OS/Kernel
-brew install hyperfine               # CLI Benchmarking Tool
-brew install trivy                   # Find vulnerabilities, misconfigurations, secrets, SBOM etc
-brew install sniffnet                # Internet Traffic Monitoring Tool
+brew install tmux                                # Terminal multiplexer
+brew install fd                                  # alternative to find command
+brew install fzf                                 # Command-line fuzzy finder
+brew install ripgrep                             # grep like features
+brew install zsh                                 # Unix shell
+brew install zsh-vi-mode                         # vim mode plugin for zsh
+brew install zsh-autosuggestions                 # unobstrusive suggestions for zsh
+brew install zsh-syntax-highlighting             # syntax-highlighting for zsh
+brew install lazygit                             # Terminal UI for git
+brew install nnn                                 # Terminal file manager
+brew install neovim                              # the OG ;)
+brew install rclone                              # mount and sync cloud storages
+brew install unikraft/cli/kraftkit               # kraft a custom OS/Kernel
+brew install hyperfine                           # CLI Benchmarking Tool
+brew install trivy                               # Find vulnerabilities, misconfigurations, secrets, SBOM etc
+brew install sniffnet                            # Internet Traffic Monitoring Tool
+brew install jesseduffield/lazydocker/lazydocker # Docker TUI
 
 ## Casks
 echo "Installing Brew Casks..."
@@ -234,6 +235,9 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo Hos
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 10
+
+# disable press and hold for special characters
+defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Asia/Kolkata" >/dev/null
