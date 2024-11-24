@@ -130,8 +130,10 @@ brew install --cask font-fira-code
 echo "Installing Mac App Store Apps..."
 mas install 497799835  #xCode
 mas install 1480933944 #Vimari
-mac install 1284863847 # Unsplash Wallpapers
-mac install 937984704  # Amphetamine
+mas install 1284863847 # Unsplash Wallpapers
+mas install 937984704  # Amphetamine
+mas install 6450280202 # Day Progress App
+
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
