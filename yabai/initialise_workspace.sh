@@ -72,14 +72,22 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 8)" >/dev/null; the
 fi
 open -a "KeepassXC"
 yabai -m space --focus 8
-sleep 2
+sleep 4
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 9)" >/dev/null; then
   yabai -m space --create
-  sleep 0.5
+  sleep 1
 fi
 open -a "Zed"
 yabai -m space --focus 9
+sleep 2
+
+if ! yabai -m query --spaces | jq -e ".[] | select(.index == 10)" >/dev/null; then
+  yabai -m space --create
+  sleep 1
+fi
+open -a "Texts 2"
+yabai -m space --focus 10
 sleep 2
 
 # shift back to the first space
