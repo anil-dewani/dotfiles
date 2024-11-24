@@ -134,6 +134,11 @@ mas install 1284863847 # Unsplash Wallpapers
 mas install 937984704  # Amphetamine
 mas install 6450280202 # Day Progress App
 
+# Install Zotero 7 Research Assistant
+curl -L -o Zotero-7.dmg https://www.zotero.org/download/client/dl?channel=release &
+platform=macos &
+version=7.0 && hdiutil attach Zotero-7.dmg && cp -R /Volumes/Zotero/Zotero.app /Applications/ && hdiutil detach /Volumes/Zotero && rm Zotero-7.dmg
+
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
