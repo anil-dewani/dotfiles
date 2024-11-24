@@ -69,6 +69,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [Secretive](https://github.com/maxgoedjen/secretive) - Store SSH keys in the Secure Enclave
 - [Monodraw](https://monodraw.helftone.com/) - ASCII art editor
 - [Day Progress](https://apps.apple.com/us/app/day-progress/id6450280202) - Track's time remaining in your work hours
+- [Zotero](https://www.zotero.org/download/) - Research Assistant
   
 
 ## 🤙🏻 Fonts
