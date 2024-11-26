@@ -109,6 +109,7 @@ brew install sniffnet                            # Internet Traffic Monitoring T
 brew install --cask warp                         # AI enabled Terminal App
 brew install --cask zed                          # AI enabled Code Editor
 brew install secretive                           # Store SSH keys in the Secure Enclave
+brew install oha                                 # CLI Load testing tool for web services
 brew install jesseduffield/lazydocker/lazydocker # Docker TUI
 
 ## Casks
