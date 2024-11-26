@@ -71,6 +71,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [Day Progress](https://apps.apple.com/us/app/day-progress/id6450280202) - Track's time remaining in your work hours
 - [Zotero](https://www.zotero.org/download/) - Research Assistant
 - [Zed](https://zed.dev/) - AI Enabled Code Editor
+- [Oha](https://github.com/hatoo/oha) - CLI Load testing tool for web services
   
 
 ## 🤙🏻 Fonts
