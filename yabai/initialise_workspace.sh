@@ -1,5 +1,9 @@
 DISPLAY_NAME_PART="LG ULTRAGEAR"
 
+# start docker engine via docker desktop and keep it in background
+osascript -e 'tell application "Docker" to set visible of front window to false'
+open -a "Docker"
+
 # Use system_profiler to get display info and check if the display is connected
 if system_profiler SPDisplaysDataType | grep -q "$DISPLAY_NAME_PART"; then
   yabai -m config left_padding 110
@@ -14,80 +18,81 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 1)" >/dev/null; the
   sleep 0.5
 fi
 
-open -a "Arc"
 yabai -m space --focus 1
+open -a "Arc"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 2)" >/dev/null; then
   yabai -m space --create
   sleep 0.5
 fi
-open -a "Alacritty"
 yabai -m space --focus 2
+alacritty &
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 3)" >/dev/null; then
   yabai -m space --create
   sleep 0.5
 fi
-open -a "Fork"
 yabai -m space --focus 3
+yes n | alacritty -e bash -c "lazygit" &
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 4)" >/dev/null; then
   yabai -m space --create
   sleep 0.5
 fi
-open -a "Tableplus"
 yabai -m space --focus 4
+open -a "Tableplus"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 5)" >/dev/null; then
   yabai -m space --create
   sleep 0.5
 fi
-open -a "Obsidian"
 yabai -m space --focus 5
+open -a "Obsidian"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 6)" >/dev/null; then
   yabai -m space --create
   sleep 0.5
 fi
-open -a "Safari"
 yabai -m space --focus 6
+open -a "Safari"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 7)" >/dev/null; then
   yabai -m space --create
   sleep 0.5
 fi
-open -a "Docker"
 yabai -m space --focus 7
+alacritty -e bash -c "lazydocker" &
+
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 8)" >/dev/null; then
   yabai -m space --create
   sleep 0.5
 fi
-open -a "KeepassXC"
 yabai -m space --focus 8
+open -a "KeepassXC"
 sleep 4
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 9)" >/dev/null; then
   yabai -m space --create
   sleep 1
 fi
-open -a "Zed"
 yabai -m space --focus 9
+open -a "Zed"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 10)" >/dev/null; then
   yabai -m space --create
   sleep 1
 fi
-open -a "Texts 2"
 yabai -m space --focus 10
+open -a "Texts 2"
 sleep 2
 
 # shift back to the first space
