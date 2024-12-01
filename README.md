@@ -72,7 +72,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [Zotero](https://www.zotero.org/download/) - Research Assistant
 - [Zed](https://zed.dev/) - AI Enabled Code Editor
 - [Oha](https://github.com/hatoo/oha) - CLI Load testing tool for web services
-  
+- [Lunar](https://lunar.fyi/) - Tool to pull brightness below system defaults during night sessions
 
 ## 🤙🏻 Fonts
 
