@@ -176,3 +176,4 @@ autoload -Uz compinit && compinit
 
 # Initialize atuin
 eval "$(atuin init zsh)"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
