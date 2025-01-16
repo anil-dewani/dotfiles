@@ -21,7 +21,7 @@ alias x="exit"
 # Git Aliases
 #alias open="fd --type f --hidden --exclude .git | fzf-tmux -p | xargs nvim"
 alias add="git add"
-alias commit="git commit"
+alias commit="better-commits"
 alias pull="git pull"
 alias stat="git status"
 alias gdiff="git diff HEAD"

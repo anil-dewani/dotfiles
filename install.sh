@@ -158,6 +158,9 @@ pip install arsenal-cli
 # A recursive Internet Scanner Tool
 pip install bbot
 
+# npm packages
+npm install -g better-commits
+
 # macOS Settings
 echo "Changing macOS defaults..."
 
