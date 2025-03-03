@@ -73,7 +73,7 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [Zed](https://zed.dev/) - AI Enabled Code Editor
 - [Oha](https://github.com/hatoo/oha) - CLI Load testing tool for web services
 - [Lunar](https://lunar.fyi/) - Tool to pull brightness below system defaults during night sessions
-- [Anki] - Learning tool which uses spaced-repitition memorization technique
+- [Anki](https://apps.ankiweb.net/) - Learning tool which uses spaced-repitition memorization technique
 
 ## 🤙🏻 Fonts
 
