@@ -84,7 +84,7 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 9)" >/dev/null; the
   sleep 1
 fi
 yabai -m space --focus 9
-open -a "Zed"
+open -a "Anki"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 10)" >/dev/null; then
