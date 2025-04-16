@@ -177,3 +177,9 @@ autoload -Uz compinit && compinit
 # Initialize atuin
 eval "$(atuin init zsh)"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
+
+# setup pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
