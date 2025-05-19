@@ -92,7 +92,7 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 10)" >/dev/null; th
   sleep 1
 fi
 yabai -m space --focus 10
-open -a "Texts 2"
+open -a "Cursor"
 sleep 2
 
 # shift back to the first space
