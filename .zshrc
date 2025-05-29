@@ -183,3 +183,4 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
+export GEMINI_API_KEY=your_api_key_here
