@@ -112,6 +112,7 @@ brew install secretive                           # Store SSH keys in the Secure 
 brew install oha                                 # CLI Load testing tool for web services
 brew install jesseduffield/lazydocker/lazydocker # Docker TUI
 brew install --cask mouseless                    # Do mouse clicks using keyboard
+brew install multitail                           # real-time log viewer
 
 ## Casks
 echo "Installing Brew Casks..."
