@@ -35,7 +35,7 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 3)" >/dev/null; the
   sleep 0.5
 fi
 yabai -m space --focus 3
-yes n | alacritty -e bash -c "lazygit" &
+open -a "Fork"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 4)" >/dev/null; then
@@ -43,7 +43,7 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 4)" >/dev/null; the
   sleep 0.5
 fi
 yabai -m space --focus 4
-open -a "Tableplus"
+open -a "KeepassXC"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 5)" >/dev/null; then
@@ -51,7 +51,7 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 5)" >/dev/null; the
   sleep 0.5
 fi
 yabai -m space --focus 5
-open -a "Obsidian"
+open -a "Anki"
 sleep 2
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 6)" >/dev/null; then
@@ -67,33 +67,32 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 7)" >/dev/null; the
   sleep 0.5
 fi
 yabai -m space --focus 7
-alacritty -e bash -c "lazydocker" &
-
-sleep 2
+open -a "Cursor"
+sleep 8
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 8)" >/dev/null; then
   yabai -m space --create
   sleep 0.5
 fi
 yabai -m space --focus 8
-open -a "KeepassXC"
-sleep 4
+open -n -a "Cursor" --args --new-window
+sleep 8
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 9)" >/dev/null; then
   yabai -m space --create
   sleep 1
 fi
 yabai -m space --focus 9
-open -a "Anki"
-sleep 2
+open -n -a "Cursor" --args --new-window
+sleep 8
 
 if ! yabai -m query --spaces | jq -e ".[] | select(.index == 10)" >/dev/null; then
   yabai -m space --create
   sleep 1
 fi
 yabai -m space --focus 10
-open -a "Cursor"
-sleep 2
+open -n -a "Cursor" --args --new-window
+sleep 8
 
 # shift back to the first space
 yabai -m space --focus 1

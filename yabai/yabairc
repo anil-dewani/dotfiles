@@ -54,13 +54,10 @@ yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info
 
 # custom space allocations for specific apps
 yabai -m rule --add label="Browser on space #1" app="Arc" space=1
-yabai -m rule --add label="Texts on space #9" app="Texts" space=9
-yabai -m rule --add label="Anki on space #x" app="Anki" space=10
+yabai -m rule --add label="Anki on space #5" app="Anki" space=5
 #yabai -m rule --add label="Alacritty Terminal on space #2" app="Alacritty" space=2 opacity=0.9
-yabai -m rule --add label="KeePassXC on space #8" app="KeePassXC" space=8
-#yabai -m rule --add label="Fork on space #3" app="Fork" space=3
-yabai -m rule --add label="TablePlus on space #4" app="TablePlus" space=4
-yabai -m rule --add label="Obsidian on space #5" app="Obsidian" space=5
+yabai -m rule --add label="KeePassXC on space #4" app="KeePassXC" space=4
+yabai -m rule --add label="Fork on space #3" app="Fork" space=3
 yabai -m rule --add label="ChatGPT via safari on space #6" app="Safari" space=6
 #yabai -m rule --add label="Docker on space #7" app="Docker" space=7
 
