@@ -159,6 +159,8 @@ pip install pyyaml
 pip install arsenal-cli
 # A recursive Internet Scanner Tool
 pip install bbot
+# A high-throughput and memory-efficient inference and serving engine for LLMs
+pip install vllm
 
 # npm packages
 npm install -g better-commits
