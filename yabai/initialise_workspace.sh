@@ -91,7 +91,7 @@ if ! yabai -m query --spaces | jq -e ".[] | select(.index == 10)" >/dev/null; th
   sleep 1
 fi
 yabai -m space --focus 10
-open -n -a "Obsidian"
+alacritty -e bash -c "dooit" &
 sleep 3
 
 # shift back to the first space
