@@ -3,6 +3,8 @@
 <p align="center">
 <a href="https://github.com/anil-dewani/dotfiles/wiki/Installation-Script-Docs">⚙️ Installation Script</a>
 <span> • </span>
+<a href="#-claude-code-configuration">🤖 Claude Code</a>
+<span> • </span>
 <a href="#screenshots">💻 Screenshots</a>
 <span> • </span>
 <a href="https://github.com/anil-dewani/dotfiles/wiki">📚 Documentation</a>
@@ -24,6 +26,7 @@ This repository serves as a central hub for all of my configuration files which 
 I've curated and listed some of the best tools to uplift your tech craft. Click on the "↗ Docs" links to read documentation about how i personally configured the tool to my own necessities and liking.
 
 - [neovim](https://neovim.io/) - my Personalized Development Environment (PDE) ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Neovim-Configuration-Docs)
+- [Claude Code](https://code.claude.ai/) - AI-powered CLI coding assistant ↗ [Docs](.claude/README.md)
 - [sketchybar](https://github.com/FelixKratz/SketchyBar) - customizable macOS statusbar ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/Sketchybar-Configuration-Docs)
 - [zsh](https://www.zsh.org/) - Unix Shell ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/ZSH-Configuration)
 - [skhd](https://github.com/koekeishiya/skhd) - Hotkey Daemon for macOS ↗ [Docs](https://github.com/anil-dewani/dotfiles/wiki/skhd-configuration)
@@ -74,6 +77,56 @@ I've curated and listed some of the best tools to uplift your tech craft. Click 
 - [Oha](https://github.com/hatoo/oha) - CLI Load testing tool for web services
 - [Lunar](https://lunar.fyi/) - Tool to pull brightness below system defaults during night sessions
 - [Anki](https://apps.ankiweb.net/) - Learning tool which uses spaced-repitition memorization technique
+
+## 🤖 Claude Code Configuration
+
+I've created a custom statusline for [Claude Code](https://code.claude.ai/) that displays comprehensive session metrics with intelligent cost calculation in INR.
+
+### Features
+
+**3-Line Statusline Display:**
+
+**Line 1 - Session & Context Overview**
+- 󰧑 Current Claude model (Opus 4.5, Sonnet 4.5, Haiku)
+- Git branch name
+- 󱤓 Context usage with color-coded percentage (green/yellow/red)
+- Session duration
+- Current time
+
+**Line 2 - Token Metrics & Efficiency**
+- 󰙨 Input tokens (formatted with commas)
+- 󰙩 Output tokens
+- 󰃨 Cached tokens with cache hit rate %
+- 󰆙 Total tokens used
+
+**Line 3 - Cost & Repository Status**
+- ₹ **Cost in INR** - Calculated from actual token usage using official Claude API pricing
+- Git changes count (color-coded by amount)
+- Working directory path
+
+### Cost Calculation
+
+The statusline calculates costs based on actual token consumption using official 2026 Claude API pricing:
+
+| Model | Input | Output | Cache Write | Cache Read |
+|-------|-------|--------|-------------|------------|
+| Opus 4.5 | $5/M | $25/M | $6.25/M | $0.50/M |
+| Sonnet 4.5 | $3/M | $15/M | $3.75/M | $0.30/M |
+| Haiku | $1/M | $5/M | $1.25/M | $0.10/M |
+
+All costs are converted to INR at ~90 INR/USD exchange rate and calculated independently of subscription plans.
+
+### Setup
+
+```bash
+# Symlink Claude Code configuration
+ln -s ~/dotfiles/.claude ~/.claude
+
+# Install jq for JSON parsing
+brew install jq  # macOS
+```
+
+For detailed documentation, customization options, and troubleshooting, see [.claude/README.md](.claude/README.md).
 
 ## 🤙🏻 Fonts
 
