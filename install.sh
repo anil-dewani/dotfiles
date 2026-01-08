@@ -153,6 +153,7 @@ sudo -v
 # Python Packages
 echo "Installing Python Packages..."
 pip install dooit
+pip install dooit-extras
 pip install debugpy
 pip install pynvim
 pip install pyyaml

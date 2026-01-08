@@ -2,11 +2,14 @@ from datetime import datetime
 from dooit.api import manager
 import os
 
+
 def colored(text, color):
     return f"[{color}]{text}[/{color}]"
 
+
 def tag(icon, text, color):
     return colored(f" {icon} ", "r " + color) + colored(f" {text} ", color)
+
 
 def get_time() -> str:
     return f"{datetime.now().time().strftime('%H:%M')}"
@@ -14,6 +17,7 @@ def get_time() -> str:
 
 def get_username():
     return os.getlogin()
+
 
 def get_all_todos():
     def fill(model):
@@ -38,7 +42,8 @@ def get_total_completed_today():
     return sum(
         1
         for t in todos
-        if t.status == "COMPLETED" and (t.due != "none" and t._due._value.date() == datetime.now().date())
+        if t.status == "COMPLETED"
+        and (t.due != "none" and t._due._value.date() == datetime.now().date())
     )
 
 
@@ -65,4 +70,3 @@ def get_pending_today():
             pending += t.due != "none" and t._due._value.date() == datetime.now().date()
 
     return pending
-
