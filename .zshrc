@@ -111,7 +111,7 @@ function kill () {
 }
 
 function suyabai() {
-    echo "$(whoami) ALL=(root) NOPASSWD: sha256:$(shasum -a 256 /opt/homebrew/Cellar/yabai/HEAD-*/bin/yabai | cut -d ' ' -f 1) /opt/homebrew/Cellar/yabai/HEAD-*/bin/yabai --load-sa" | sudo tee /private/etc/sudoers.d/yabai
+    echo "$(whoami) ALL=(root) NOPASSWD: sha256:$(shasum -a 256 /opt/homebrew/Cellar/yabai/*/bin/yabai | cut -d ' ' -f 1) /opt/homebrew/Cellar/yabai/HEAD-*/bin/yabai --load-sa" | sudo tee /private/etc/sudoers.d/yabai
 }
 
 # initialise broot to handle git staging area and commit changes
@@ -183,4 +183,21 @@ export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - zsh)"
-export GEMINI_API_KEY=your_api_key_here
+
+# Following line was automatically added by arttime installer
+export MANPATH=/Users/nirakar/.local/share/man:$MANPATH
+export GEMINI_API_KEY=AIzaSyDfeEpv6q4kbf3Kufx5JjnYyinGUJdS2I8
+
+# bun completions
+[ -s "/Users/nirakar/.bun/_bun" ] && source "/Users/nirakar/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/nirakar/.antigravity/antigravity/bin:$PATH"
+
+# cuabot alias
+alias cuabot="npx -y cuabot"
+export PATH="$(brew --prefix node)/bin:$PATH"
